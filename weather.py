@@ -35,6 +35,8 @@ args = parser.parse_args()
 weather = min_max_day(args.city, args.country)
 
 if args.verbose:
-    print(f"Nei prossimi giorni la temperatura in '{args.city}' è: {weather}")
+    print(f"Nei prossimi giorni la temperatura a '{args.city}' è : {weather}")
 else:
     print (weather)
+
+#questo è un programma meteorologico
