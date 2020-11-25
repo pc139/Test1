@@ -1,6 +1,6 @@
 #! /usr/bin/env python3
 
-from birthdays import return_birthday
+from weather import min_max_day
 
-return_birthday('Albert Einstein')
-return_birthday('Alan Turing')
+min_max_day("Venice", "Italy")
+
