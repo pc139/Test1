@@ -26,17 +26,17 @@ def min_max_day (city,country):
 
 #min_max_day("Venice", "Italy")
 
-#parser = argparse.ArgumentParser(description="Previsioni meteo per i prossimi 16 gg")
-#parser.add_argument("city", type=str, help=" Input consentiti: Venice, Padua, Milan")
-#parser.add_argument("country", type=str, help="Input consentiti: Italy", choices=["Italy"])
-#parser.add_argument("-v", "--verbose", help="Restituisci output verboso", action ="store_true")
-#args = parser.parse_args()
+parser = argparse.ArgumentParser(description="Previsioni meteo per i prossimi 16 gg")
+parser.add_argument("city", type=str, help=" Input consentiti: Venice, Padua, Milan")
+parser.add_argument("country", type=str, help="Input consentiti: Italy", choices=["Italy"])
+parser.add_argument("-v", "--verbose", help="Restituisci output verboso", action ="store_true")
+args = parser.parse_args()
 
 
 
-#if args.verbose:
+if args.verbose:
     #print(f"Nei prossimi giorni la temperatura a '{args.city}' è : {info_meteo}")
-#else:
+else:
     #print (info_meteo)
 
 #questo è un programma meteorologico
