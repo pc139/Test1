@@ -34,9 +34,3 @@ args = parser.parse_args()
 
 
 
-if args.verbose:
-    #print(f"Nei prossimi giorni la temperatura a '{args.city}' è : {info_meteo}")
-else:
-    #print (info_meteo)
-
-#questo è un programma meteorologico
